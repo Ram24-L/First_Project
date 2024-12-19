@@ -1,7 +1,7 @@
 # import modul
 import mysql.connector
 from tabulate import tabulate
- 
+print("HELLO")
 # Code untuk dapat terkoneksi ke database MySQL
 db = mysql.connector.connect(
     host = "localhost",      # host database, biasanya pakai localhost
